@@ -323,33 +323,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 584189151d258f44e8877e5933fa5598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sequence1: 0
-  Sequence2: 0
-  Sequence3: 0
-  Sequence4: 0
-  Sequence5: 0
-  Sequence6: 0
-  Sequence12_press1: 0
-  Sequence1_press2: 0
-  Sequence1_press3: 0
-  Sequence2_press2: 0
-  Sequence2_press3: 0
-  Sequence34_press1: 0
-  Sequence3_press2: 0
-  Sequence3_press3: 0
-  Sequence4_press1: 0
-  Sequence4_press2: 0
-  Sequence4_press3: 0
-  Sequence56_press1: 0
-  Sequence5_press2: 0
-  Sequence5_press3: 0
-  Sequence6_press2: 0
-  Sequence6_press3: 0
-  startTime: 0
-  timer: 0
-  holdTimePress: 0.1
-  holdTime1: 1
-  holdTime2: 2
+  button: Jump
+  pressDurations:
+  - 0.5
+  - 1
+  - 2
+  sequences:
+  - 123
+  - 132
+  - 213
+  - 231
+  - 312
+  - 321
 --- !u!4 &1083297507
 Transform:
   m_ObjectHideFlags: 0
